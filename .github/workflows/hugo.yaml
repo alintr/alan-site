@@ -44,4 +44,4 @@ jobs:
     steps:
       - name: Publish site
         id: deployment
-        uses: actions/deploy-page@v5
+        uses: actions/deploy-pages@v5
