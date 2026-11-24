@@ -41,7 +41,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{steps.deployment.outputs.page_url }}
-  steps:
-    - name: Publish site
-      id: deployment
-      uses: actions/deploy-page@v5
+steps:
+  - name: Publish site
+    id: deployment
+    uses: actions/deploy-page@v5
