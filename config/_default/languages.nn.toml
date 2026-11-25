@@ -1,11 +1,11 @@
-locale = "nb"
+locale = "nn"
 label = "Norsk"
 weight = 1
 title = "Alan Trædal"
 
 [params]
   displayName = "Norsk"
-  isoCode = "nb"
+  isoCode = "nn"
   rtl = false
   dateFormat = "2 January 2006"
   logo = "img/blowfish_logo_transparent.png"
