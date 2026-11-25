@@ -21,6 +21,8 @@ jobs:
     steps:
     - name: Check out repository
       uses: actions/checkout@v4
+      with:
+        submodules: recursive
 
     - name: Install Hugo
       uses: peaceiris/actions-hugo@v3
