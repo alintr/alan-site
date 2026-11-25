@@ -1,7 +1,7 @@
 locale = "nb"
 label = "Norsk"
 weight = 1
-title = "Blowfish"
+title = "Alan Trædal"
 
 [params]
   displayName = "Norsk"
