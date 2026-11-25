@@ -16,7 +16,7 @@
   weight = 10
 
 [[main]]
-  name = "Tech"
+  name = "Technology"
   pageRef = "tech"
   weight = 20
 
