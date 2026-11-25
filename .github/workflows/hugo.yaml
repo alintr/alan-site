@@ -30,8 +30,8 @@ jobs:
     - name: Build site
       run: |
         hugo --minify --baseURL "https://alantraedal.no/"
-        grep -n "localhost:1313" public/index.html || true
-        grep -n "alantraedal.no" public/index.html
+        find public -maxdepth 2 -type f | sort
+        test -f public/index.html && grep -n "alantraedal.no\|localhost:1313" public/index.html || true
 
     - name: Upload site
       uses: actions/upload-pages-artifact@v3
