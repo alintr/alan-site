@@ -11,5 +11,5 @@
 baseURL = 'https://alantraedal.no'
 locale = 'en-us'
 title = 'Hei, ser du meg?'
-theme = ''
+theme = 'blowfish'
 
